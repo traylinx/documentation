@@ -1,0 +1,92 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "2md",
+  "theme": "palm",
+  "colors": {
+    "primary": "#7c7c80",
+    "light": "#151c28",
+    "dark": "#f2f2f2"
+  },
+  "favicon": "https://media.brand.dev/ed1ea708-4249-4d42-9233-93fde61f32fc.jpg",
+  "logo": {
+    "light": "https://media.brand.dev/ed1ea708-4249-4d42-9233-93fde61f32fc.jpg",
+    "dark": "https://media.brand.dev/ed1ea708-4249-4d42-9233-93fde61f32fc.jpg"
+  },
+  "navbar": {
+    "primary": {
+      "type": "github",
+      "href": "https://github.com/traylinx/2md"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/traylinx/2md"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "configuration"
+            ]
+          },
+          {
+            "group": "CLI",
+            "pages": [
+              "cli/overview",
+              "cli/reference"
+            ]
+          },
+          {
+            "group": "Web UI",
+            "pages": [
+              "web-ui/convert",
+              "web-ui/crawl",
+              "web-ui/agentify",
+              "web-ui/file2md"
+            ]
+          },
+          {
+            "group": "Deployment",
+            "pages": [
+              "deployment/architecture",
+              "deployment/docker",
+              "deployment/ci-cd"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "api/overview",
+              "api/authentication",
+              "api/async-jobs"
+            ]
+          },
+          {
+            "group": "Endpoints",
+            "pages": [
+              "api/convert",
+              "api/batch",
+              "api/crawl",
+              "api/agentify",
+              "api/file2md",
+              "api/jobs",
+              "api/agent-discovery"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
